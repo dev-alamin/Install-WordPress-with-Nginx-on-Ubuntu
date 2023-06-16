@@ -57,7 +57,7 @@ Access phpMyAdmin by visiting `http://localhost/phpmyadmin` in your web browser.
 If you encounter any permission issues while creating a new database using phpMyAdmin, execute the following SQL commands:
 
 ```sql
-GRANT ALL PRIVILEGES ON hc.* TO 'phpmyadmin'@'localhost';
+GRANT ALL PRIVILEGES ON database_name.* TO 'phpmyadmin'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
@@ -138,6 +138,7 @@ To fix permission issues, run the following commands:
 ```bash
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 755 /var/www/html
+sudo chown -R duser_name:www-data /var/www/html/
 ```
 
 ## 7. Install WP-CLI
