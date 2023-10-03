@@ -108,7 +108,7 @@ To create different domains for different sites, you can use virtual hosts in Ap
 
    ```bash
    sudo chown -R www-data:www-data /var/www/html/example.com
-   sudo chmod -R 755 /var/www/html/example.com
+   sudo chmod -R 777 /var/www/
    ```
 
 8. Add an entry in your `/etc/hosts` file to map the domain to your localhost:
