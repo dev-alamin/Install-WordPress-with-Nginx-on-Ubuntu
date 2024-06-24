@@ -81,6 +81,13 @@ To create different domains for different sites, you can use virtual hosts in Ap
        DocumentRoot /var/www/html/example.com
        ErrorLog ${APACHE_LOG_DIR}/error.log
        CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+         <Directory /var/www/example>
+              Options Indexes FollowSymLinks
+              AllowOverride All
+              Require all granted
+          </Directory>
+
    </VirtualHost>
    ```
 
