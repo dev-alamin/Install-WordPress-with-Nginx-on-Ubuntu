@@ -1,4 +1,4 @@
-# Ubuntu Linux Web Development Setup Guide
+# How to Install WordPress with Nginx on Ubuntu
 
 This guide will walk you through the step-by-step process of setting up a web development environment on Ubuntu Linux. It includes the installation of Apache2, PHP, MySQL, phpMyAdmin, the configuration of virtual hosts for different websites, fixing permission issues, and installing WP-CLI for WordPress management.
 
@@ -39,7 +39,7 @@ Verify the Nginx installation:
 systemctl status nginx
 ```
 
-## Or Install Some Utility 
+## Install Some Utility 
 
 Ensure you have installed the following packages before proceeding:
 
