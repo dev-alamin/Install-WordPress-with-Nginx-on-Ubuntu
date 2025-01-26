@@ -241,6 +241,16 @@ Restart Nginx to reflect the changes you made:
 sudo systemctl restart nginx
 ```
 
+## Additionally you can block unwanted flooting bot like Semrush..
+
+Put it just inside server blcok
+
+```bash
+if ($http_user_agent ~* (semrushbot|ahrefsbot|petalbot|baiduspider|mj12bot|dotbot)) {
+    return 403;
+}
+```
+
 ## PHP.ini Configuration
 
 Adjusting your PHP configuration is crucial for optimal WordPress use. To accommodate WordPress media files, you should increase the maximum upload size, post size, and memory limit. You can also adjust the maximum execution time and input variables.
