@@ -1,6 +1,6 @@
 # How to Install WordPress with Nginx on Ubuntu
 
-This guide will walk you through the step-by-step process of setting up a web development environment on Ubuntu Linux. It includes the installation of Apache2, PHP, MySQL, phpMyAdmin, the configuration of virtual hosts for different websites, fixing permission issues, and installing WP-CLI for WordPress management.
+This guide will walk you through the step-by-step process of setting up a web development environment on Ubuntu Linux. It includes the installation of Ngninx/Apache2, PHP, MariaDB/MySQL, phpMyAdmin, the configuration of virtual hosts for different websites, fixing permission issues, and installing WP-CLI for WordPress management.
 
 ## Update Ubuntu before going further
 Begin your WordPress installation on your Ubuntu server smoothly and successfully by running the standard update command. Running this command updates your system, minimizing the risk of conflicts during the WordPress installation process, as WordPress is extensive and intricate.
