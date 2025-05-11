@@ -171,6 +171,8 @@ sudo nano /etc/nginx/sites-available/example.com.conf
 ```
 
 Use this nginx config carefully: 
+
+```nginxconf
 server {
   listen 80;
   listen [::]:80;
@@ -222,6 +224,7 @@ server {
     deny all;
   }
 }
+```
 
 To finish off this the Nginx server block configuration, you will need to enable the Nginx configuration file from “sites-available” by creating a symlink to “sites-enabled” using the following command, replacing “example.conf” with your configuration file name:
 
